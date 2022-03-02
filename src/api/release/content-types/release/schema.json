@@ -4,7 +4,7 @@
   "info": {
     "singularName": "release",
     "pluralName": "releases",
-    "displayName": "Releases",
+    "displayName": "Release",
     "description": ""
   },
   "options": {
@@ -15,16 +15,20 @@
     "title": {
       "type": "string"
     },
-    "images": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "catalog_number": {
+      "type": "string"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist"
+    },
+    "main_image": {
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
