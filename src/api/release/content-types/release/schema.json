@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "catalog_number": {
-      "type": "string"
-    },
     "artists": {
       "type": "relation",
       "relation": "oneToMany",
@@ -35,6 +32,9 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::release-format.release-format"
+    },
+    "catalog_number": {
+      "type": "integer"
     }
   }
 }
