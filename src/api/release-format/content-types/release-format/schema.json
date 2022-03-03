@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "release_formats",
+  "info": {
+    "singularName": "release-format",
+    "pluralName": "release-formats",
+    "displayName": "Release Formats"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    }
+  }
+}
