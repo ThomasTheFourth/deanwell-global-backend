@@ -18,9 +18,9 @@
     "catalog_number": {
       "type": "string"
     },
-    "artist": {
+    "artists": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::artist.artist"
     },
     "main_image": {
