@@ -11,5 +11,9 @@
     "draftAndPublish": true
   },
   "pluginOptions": {},
-  "attributes": {}
+  "attributes": {
+    "option": {
+      "type": "string"
+    }
+  }
 }
