@@ -4,7 +4,8 @@
   "info": {
     "singularName": "release-format",
     "pluralName": "release-formats",
-    "displayName": "Release Formats"
+    "displayName": "Release Format",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
