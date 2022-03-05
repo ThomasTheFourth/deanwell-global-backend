@@ -37,6 +37,11 @@
     },
     "snipCartId": {
       "type": "string"
+    },
+    "product_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product-option.product-option"
     }
   }
 }
